@@ -7,7 +7,7 @@
 cp example.env .env
 
 # Create a virtual environment to isolate our package dependencies locally
-python3 -m venv env
+python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 
 # Install dependencies
