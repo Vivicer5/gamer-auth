@@ -1,4 +1,4 @@
-# Agency Auth Microservice
+# gamer Auth Microservice
 
 ## Local Setup
 
@@ -17,10 +17,10 @@ pip install -r requirements.txt
 python3 manage.py migrate
 
 # Create admin/superuser
-python3 manage.py createsuperuser
+python manage.py createsuperuser
 
 # Start project
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 ## Heroku setup
